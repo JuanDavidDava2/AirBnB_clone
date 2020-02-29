@@ -3,7 +3,7 @@ header {
   height: 70px;
   width: 100%;
   border-bottom: 1px #cccccc;
-  }
+}
 header .logo {
   background: url(../images/imagen.png) no-repeat;
   height: 60px;
