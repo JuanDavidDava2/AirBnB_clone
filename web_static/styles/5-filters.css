@@ -19,7 +19,9 @@ button {
   top: 15px;
   right: 30px;
 }
-
+button:hover{
+  opacity: 0.9;
+}
 .locations {
   height: 100%;
   width: 25%;
