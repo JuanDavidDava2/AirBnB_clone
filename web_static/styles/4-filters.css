@@ -19,6 +19,6 @@ button {
   top: 15px;
   right: 30px;
 }
-button:hover{
+button:hover {
   opacity: 0.9;
 }

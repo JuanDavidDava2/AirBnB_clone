@@ -58,9 +58,9 @@ button:hover {
 .popover {
   visibility: hidden;
   width: 100%;
-  border: 1px solid #DDDDDD;
+  border: 1px solid #dddddd;
   border-radius: 4px;
-  background: #FAFAFA;
+  background: #fafafa;
   padding-bottom: 25px;
 }
 .amenities .popover {
