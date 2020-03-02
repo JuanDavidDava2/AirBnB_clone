@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <title>AirBnB_clone</title>
-    <link rel="stylesheet" href="styles/4-common.css" />
-    <link rel="stylesheet" href="styles/3-header.css" />
-    <link rel="stylesheet" href="styles/3-footer.css" />
-    <link rel="stylesheet" href="styles/6-filters.css" />
+    <link rel="stylesheet" type="text/css" href="styles/4-common.css" />
+    <link rel="stylesheet" type="text/css" href="styles/3-header.css" />
+    <link rel="stylesheet" type="text/css" href="styles/3-footer.css" />
+    <link rel="stylesheet" type="text/css" href="styles/6-filters.css" />
     <link rel="icon" href="images/icon.png" type="image/png" />
   </head>
   <body>
@@ -19,23 +19,40 @@
         <button type="">Search</button>
         <div class="locations">
           <h3>States</h3>
-          <h4>California, Arizona...</h4>
-        </div>
-
-        <div class="amenities">
-          <h3>Amenities</h3>
-          <h4>Internet, Kitchen...</h4>
+          <h4>California, Arizona</h4>
           <div class="popover">
             <ul>
-              <h2>Arizona</h2>
-              <li>Phoenix</li>
-              <li>Weliton</li>
+              <li>
+                <h2>Arizona:</h2>
+                <ul>
+                  <li>Pheonix</li>
+                  <li>Weliton</li>
+                </ul>
+              </li>
+              <li>
+                <h2>California:</h2>
+                <ul>
+                  <li>Los Altos</li>
+                  <li>San Francisco</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="amenities">
+          <h3>Amenities</h3>
+          <h4>Internet, Kitchen</h4>
+          <div class="popover">
+            <ul>
+              <li>Internet</li>
+              <li>TV</li>
+              <li>Kitchen</li>
+              <li>Iron</li>
             </ul>
           </div>
         </div>
       </section>
     </div>
-
     <footer>
       <div class="tr"></div>
       <p>Holberton School</p>

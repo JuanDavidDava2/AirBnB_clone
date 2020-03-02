@@ -19,7 +19,9 @@ button {
   top: 15px;
   right: 30px;
 }
-
+button:hover {
+  opacity: 0.9;
+}
 .locations {
   height: 100%;
   width: 25%;
@@ -33,11 +35,14 @@ button {
 
 .filters div {
   display: inline-grid;
-  position: relative; 
-  height: 100%;
-  width: 25%;
 }
 
+.filters h2 {
+  margin-left: 15%;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 600;
+}
 .filters h3 {
   margin-left: 15%;
   margin-bottom: 0;
@@ -50,8 +55,29 @@ button {
   font-size: 14px;
 }
 
-.filters .popover{
-  color: #fafafa;
-  border: 1px #dddddd;
+.popover {
+  visibility: hidden;
+  width: 100%;
+  border: 1px solid #DDDDDD;
   border-radius: 4px;
+  background: #FAFAFA;
+  padding-bottom: 25px;
+}
+.amenities .popover {
+  padding: 20px 0;
+  margin-left: -5px;
+  margin-top: 1%;
+}
+.locations .popover {
+  margin-top: 1%;
+}
+.popover ul {
+  list-style-type: none;
+}
+.popover li {
+  margin-bottom: 8px;
+}
+.amenities:hover .popover,
+.locations:hover .popover {
+  visibility: visible;
 }
